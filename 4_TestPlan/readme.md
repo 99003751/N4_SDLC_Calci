@@ -16,7 +16,21 @@
 |  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
 
+# Binary Conversion
+ | ID | Input | Expected Output | Actual Output | Status |
+|----|-------|-----------------|---------------|--------|
+| B1 |100    |    4,4          |               |        |
+| B2 |111    |    7,7          |               |        |
+| D1 |4      |    100,4        |               |        |
+| D2 |15     |    1111,F       |               |        |
+| D3 |-10    |Invalid Input    |               |        |
+| D4 |2.8    |Invalid Input    |               |        |
+| D5 |-2.8   |Invalid Input    |               |        |
+| D7 |1024   |Error,400        |               |        |
+| B3 |-100   |Invalid Input    |               |        |
+| B3 | A     |Invalid Input    |               |        |
 
+B - Binary Input, D - Decimal Input
 # Trigonometric Conversions
 
 | Test ID 	| input    	| expected output 	| actual output 	| status 	|
