@@ -55,7 +55,7 @@ long dectohexa(long quotient)
         }
         printf("\n");
         
-        return hexnum;
+        //return hexnum;
     
 }
 
