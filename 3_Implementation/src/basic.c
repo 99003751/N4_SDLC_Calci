@@ -5,7 +5,6 @@ void basics()
     float num1,num2;
     int n1,n2;
     printf("Enter An operator  1(Addition)--2(Subtraction)--3(Multiplication)--4(Division)--5(Remainder): ");
-
     scanf("%d", &operator);
 
 //defining Functions of the program
