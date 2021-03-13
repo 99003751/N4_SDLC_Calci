@@ -8,11 +8,11 @@ Visit [Pages for Report -optional](using github.io option)
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![C/C++ CI - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/c-cpp.yml)
-[![Cmake - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/Cmake.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/Cmake.yml)
+[![Cmake - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/Cmake.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/Cmake.yml) |
 [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/CodeQuality_Dynamic.yml)
 [![Contribution Check - Git Inspector](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/gitInspector.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/gitInspector.yml)
 [![Cppcheck](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/cppcheck.yml)
-[![TEST - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/test.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/test.yml)
+[![TEST - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/test.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/test.yml)|
 [![Unit Testing - Unity](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/unity.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/unity.yml)
 
 
