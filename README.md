@@ -7,7 +7,8 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI]
+[![C/C++ CI - Build Status](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003751/N4_SDLC_Calci/actions/workflows/c-cpp.yml)
+
 
 
 ## Folder Structure
