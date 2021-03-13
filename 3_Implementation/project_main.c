@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     while(1)
     {
         calculator_menu();
+        break;
     }
 }
 void calculator_menu(void)
