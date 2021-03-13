@@ -1,6 +1,7 @@
 # SDLC Activity Based Learning
 
 # N4_SDLC_Calci
+This Calculator helps in calculating basic calculation, conversion of dimensions, trigonometric functions and binary conversions.
 
 
 Visit [Pages for Report -optional](using github.io option)
