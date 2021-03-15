@@ -29,6 +29,10 @@ long dectobin()
 }
 long dectohexa(long quotient)
 {
+	if(quotient<0)
+	{
+		return -1;
+	}
     int i=1,j,temp;
     int rem_hex;
     char hexnum[100];
@@ -61,6 +65,10 @@ long dectohexa(long quotient)
 
 long decimaltobin(long binary)
 {
+	if(binary<0)
+	{
+		return -1;
+	}
     long binarynum = 0;
     int rem_bin, temp_bin = 1;
 
@@ -79,6 +87,10 @@ long decimaltobin(long binary)
 
 long binarytodec(long bintodec_val)
 {
+	if(bintodec_val<0)
+	{
+		return -1;
+	}
     int base=1,bin_rem,bin_decimal=0;
     while(bintodec_val>0)
     {
@@ -94,6 +106,10 @@ long binarytodec(long bintodec_val)
 }
 long binarytohex(long bintohex_val)
 {
+	if(bintohex_val<0)
+	{
+		return -1;
+	}
     long int remainder,hexadecimalval=0,i=1;
         while (bintohex_val != 0)
     {
