@@ -34,16 +34,12 @@ void test15();
 void test16();
 
 
-//arithmetic operations
-
-void test23();
-void test24();
-void test25();
-void test26();
-void test27();
-
-
-
+void test17();
+void test18();
+void test19();
+void test20();
+void test21();
+void test22();
 
 
 
@@ -84,14 +80,12 @@ int main()
   RUN_TEST(test15);
   RUN_TEST(test16);
   
-  
-  //arithmetic operation 
-  RUN_TEST(test23);
-  RUN_TEST(test24);
-  RUN_TEST(test25);
-  RUN_TEST(test26);
-  RUN_TEST(test27);
-
+    RUN_TEST(test17);
+  RUN_TEST(test18);
+  RUN_TEST(test19);
+  RUN_TEST(test20);
+  RUN_TEST(test21);
+  RUN_TEST(test22);
   
   
 
@@ -143,57 +137,44 @@ void test10(void)
 
 
 
-void test23(void)
+void test2(void)
 {
-  
-   TEST_ASSERT_EQUAL(12,add(10,2));   
-  
-}
-void test24(void)
-{
-
-     TEST_ASSERT_EQUAL(5,sub(10,5));   
+   TEST_ASSERT_EQUAL(12,add(10,2));
+     TEST_ASSERT_EQUAL(5,sub(10,5));
+      TEST_ASSERT_EQUAL(20,mul(10,2));
+       TEST_ASSERT_EQUAL(5,divd(10,2));
+        TEST_ASSERT_EQUAL(1,remb(10,3));
          
 }
-void test25(void)
-{
-
-     TEST_ASSERT_EQUAL(20,mul(10,2)); 
-         
-}
-void test26(void)
-{
-
-     TEST_ASSERT_EQUAL(5,divd(10,2)); 
-         
-}
-void test27(void)
-{
-
-     TEST_ASSERT_EQUAL(1,remb(10,3));
-         
-}
-
-
-
-
-
 
 void test3()
 {
   TEST_ASSERT_EQUAL(0,sine(0));
-  TEST_ASSERT_EQUAL(0.50,sine(30));
-  TEST_ASSERT_EQUAL(1.0,cosine(0));
-  TEST_ASSERT_EQUAL(0,cosine(90));
-  TEST_ASSERT_EQUAL(0.50,cosine(60));
-  TEST_ASSERT_EQUAL(1.0,tangent(45));
-  TEST_ASSERT_EQUAL(0,tangent(0));
-  
-  //TEST_ASSERT_EQUAL(-1.0,cosine(180));
-  //TRYING TO EDIT
 }
-
-
+void test22()
+{
+    TEST_ASSERT_EQUAL(1,cosine(0));
+}
+  void test21()
+{
+    TEST_ASSERT_EQUAL(0.50,sine(30));
+}
+void test20()
+{
+    TEST_ASSERT_EQUAL(0.50,cosine(60));
+}
+void test19()
+{
+   TEST_ASSERT_EQUAL(0,cosine(90));
+}
+void test18()
+{
+   TEST_ASSERT_EQUAL(1.0,tangent(45));
+}
+void test17()
+{
+   TEST_ASSERT_EQUAL(0,tangent(0));
+}
 void test4()
 {
   TEST_ASSERT_EQUAL(30, F_to_C(86));
