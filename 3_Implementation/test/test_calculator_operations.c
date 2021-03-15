@@ -74,20 +74,20 @@ void test1(void)
 {
 TEST_ASSERT_EQUAL(3, binarytodec(11));
  }
-void testvoid test5(void)
+void test5(void)
 {
   TEST_ASSERT_EQUAL(4,binarytodec(100));
 }
 
-void testvoid test6(void)
+void test6(void)
 {
   TEST_ASSERT_EQUAL(7,binarytodec(111));
 }
-void testvoid test7(void)
+void test7(void)
 {
   TEST_ASSERT_EQUAL(100, decimaltobin(4));
 }
-void testvoid test8(void)
+void test8(void)
 {
   TEST_ASSERT_EQUAL(1111, decimaltobin(15));
 }
