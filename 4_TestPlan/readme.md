@@ -2,18 +2,18 @@
 
 
 # Binary Conversion
- | ID | Input | Expected Output | Actual Output | Status |
-|----|-------|-----------------|---------------|--------|
-| B1 |100    |    4,4          |               |        |
-| B2 |111    |    7,7          |               |        |
-| D1 |4      |    100,4        |               |        |
-| D2 |15     |    1111,F       |               |        |
-| D3 |-10    |Invalid Input    |               |        |
-| D4 |2.8    |Invalid Input    |               |        |
-| D5 |-2.8   |Invalid Input    |               |        |
-| D7 |1024   |Error,400        |               |        |
-| B3 |-100   |Invalid Input    |               |        |
-| B3 | A     |Invalid Input    |               |        |
+ | ID | Input | Expected Output | Actual Output | Scenario              |
+|----|-------|-----------------|---------------|------------------------|
+| B1 |100    |    4,4          |  4,4          |    REQUIRMENT Based    |
+| B2 |111    |    7,7          |  7,7          |    Requirment Based    |
+| D1 |4      |    100,4        |  100,4        |    Requirment Based    |
+| D2 |15     |    1111,F       |  1111,F       |    Scenario Based      |
+| D3 |-10    |Invalid Input    |     -         |    Bondary Condition   |
+| D4 |2.8    |Invalid Input    |     -         |    Boundary Condition  |
+| D5 |-2.8   |Invalid Input    |     -         |    Boundary Condition  |
+| D7 |1024   |Error,400        |   400         |    Boundary Condition  |
+| B3 |-100   |Invalid Input    |     -         |    Boundary Condition  |
+| B3 | A     |Invalid Input    |     -         |    Boundary Condition  |
 
 B - Binary Input, D - Decimal Input
 # Trigonometric Conversions
