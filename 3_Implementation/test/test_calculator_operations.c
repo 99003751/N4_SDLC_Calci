@@ -18,6 +18,12 @@ void test1();
 void test2();
 void test3();
 void test4();
+void test5();
+void test6();
+void test7();
+void test8();
+
+
 
 
 
@@ -43,6 +49,12 @@ int main()
   RUN_TEST(test2);
   RUN_TEST(test3);
   RUN_TEST(test4);
+  RUN_TEST(test5);
+  RUN_TEST(test6);
+  RUN_TEST(test7);
+  RUN_TEST(test8);
+  
+  
 
   
   /*RUN_TEST(test_add_testcase2);
@@ -60,12 +72,23 @@ int main()
 //}
 void test1(void)
 {
-
-  TEST_ASSERT_EQUAL(3, binarytodec(11));
-  
+TEST_ASSERT_EQUAL(3, binarytodec(11));
+ }
+void testvoid test5(void)
+{
   TEST_ASSERT_EQUAL(4,binarytodec(100));
+}
+
+void testvoid test6(void)
+{
   TEST_ASSERT_EQUAL(7,binarytodec(111));
+}
+void testvoid test7(void)
+{
   TEST_ASSERT_EQUAL(100, decimaltobin(4));
+}
+void testvoid test8(void)
+{
   TEST_ASSERT_EQUAL(1111, decimaltobin(15));
 }
 
