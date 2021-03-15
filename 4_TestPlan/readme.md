@@ -8,11 +8,11 @@
 | B2 |111    |    7,7          |  7,7          |    Requirment Based    |
 | D1 |4      |    100,4        |  100,4        |    Requirment Based    |
 | D2 |15     |    1111,F       |  1111,F       |    Scenario Based      |
-| D3 |-10    |Invalid Input    |     -         |    Bondary Condition   |
+| D3 |-10    |Invalid Input    |Invalid Input  |    Bondary Condition   |
 | D4 |2.8    |Invalid Input    |     -         |    Boundary Condition  |
-| D5 |-2.8   |Invalid Input    |     -         |    Boundary Condition  |
+| D5 |-2.8   |Invalid Input    |Invalid Input  |    Boundary Condition  |
 | D7 |1024   |Error,400        |   400         |    Boundary Condition  |
-| B3 |-100   |Invalid Input    |     -         |    Boundary Condition  |
+| B3 |-100   |Invalid Input    |Invalid Input  |    Boundary Condition  |
 | B3 | A     |Invalid Input    |     -         |    Boundary Condition  |
 
 B - Binary Input, D - Decimal Input
