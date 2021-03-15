@@ -41,6 +41,12 @@ void test20();
 void test21();
 void test22();
 
+void test23();
+void test24();
+void test25();
+void test26();
+
+
 
 
 //void test_add_testcase2(void);
@@ -86,6 +92,11 @@ int main()
   RUN_TEST(test20);
   RUN_TEST(test21);
   RUN_TEST(test22);
+  
+   RUN_TEST(test23);
+  RUN_TEST(test24);
+  RUN_TEST(test25);
+  RUN_TEST(test26);
   
   
 
@@ -140,12 +151,31 @@ void test10(void)
 void test2(void)
 {
    TEST_ASSERT_EQUAL(12,add(10,2));
-     TEST_ASSERT_EQUAL(5,sub(10,5));
-      TEST_ASSERT_EQUAL(20,mul(10,2));
-       TEST_ASSERT_EQUAL(5,divd(10,2));
-        TEST_ASSERT_EQUAL(1,remb(10,3));
+     
          
 }
+
+void test23()
+{
+  TEST_ASSERT_EQUAL(5,sub(10,5));
+      
+}
+void test24()
+{
+TEST_ASSERT_EQUAL(20,mul(10,2));
+      
+}
+void test25()
+{
+  TEST_ASSERT_EQUAL(5,divd(10,2));
+      
+}
+void test26()
+{
+    TEST_ASSERT_EQUAL(1,remb(10,3));
+}
+
+
 
 void test3()
 {
