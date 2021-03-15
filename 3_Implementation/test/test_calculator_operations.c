@@ -22,6 +22,8 @@ void test5();
 void test6();
 void test7();
 void test8();
+void test9();
+void test10();
 
 
 
@@ -90,6 +92,14 @@ void test7(void)
 void test8(void)
 {
   TEST_ASSERT_EQUAL(1111, decimaltobin(15));
+}
+void test9(void)
+{
+  TEST_ASSERT_EQUAL(-1, decimaltobin(-10));
+}
+void test10(void)
+{
+  TEST_ASSERT_EQUAL(-1, decimaltobin(-100));
 }
 
 
