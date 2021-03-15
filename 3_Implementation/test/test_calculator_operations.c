@@ -26,6 +26,14 @@ void test9();
 void test10();
 
 
+void test11();
+void test12();
+void test13();
+void test14();
+void test15();
+
+
+
 
 
 
@@ -57,6 +65,13 @@ int main()
   RUN_TEST(test8);
   RUN_TEST(test9);
   RUN_TEST(test10);
+  
+  
+  RUN_TEST(test11);
+  RUN_TEST(test12);
+  RUN_TEST(test13);
+  RUN_TEST(test14);
+  RUN_TEST(test15);
   
   
 
@@ -136,14 +151,51 @@ void test3()
 void test4()
 {
   TEST_ASSERT_EQUAL(30, F_to_C(86));
-  TEST_ASSERT_EQUAL(86, C_to_F(30));
+  
+}
+
+void test11()
+{
+  
   TEST_ASSERT_EQUAL(1, g_to_kg(1000));
   TEST_ASSERT_EQUAL(1, cm_to_m(100));
+}
+
+void test12()
+{
   TEST_ASSERT_EQUAL(0.9144, foot_to_m(3));
   TEST_ASSERT_EQUAL(35.94444, F_to_C(96.7));
-  TEST_ASSERT_EQUAL(2205, kg_to_pd(1000));
-  TEST_ASSERT_EQUAL(1000, km_to_m(1));
+ 
 }
+
+void test13()
+{
+ TEST_ASSERT_EQUAL(2205, kg_to_pd(1000));
+ 
+}
+
+void test13()
+{
+ TEST_ASSERT_EQUAL(1000, km_to_m(1));
+ 
+}
+
+void test14()
+{
+  TEST_ASSERT_EQUAL(86, C_to_F(30));
+ 
+}
+
+void test15()
+{
+  TEST_ASSERT_EQUAL(86, C_to_F(30));
+ 
+}
+
+
+
+
+
 
 
 
