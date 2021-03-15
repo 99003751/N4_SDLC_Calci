@@ -31,6 +31,7 @@ void test12();
 void test13();
 void test14();
 void test15();
+void test16();
 
 
 
@@ -72,6 +73,8 @@ int main()
   RUN_TEST(test13);
   RUN_TEST(test14);
   RUN_TEST(test15);
+  RUN_TEST(test16);
+  
   
   
 
@@ -174,19 +177,19 @@ void test13()
  
 }
 
-void test13()
+void test14()
 {
  TEST_ASSERT_EQUAL(1000, km_to_m(1));
  
 }
 
-void test14()
+void test15()
 {
   TEST_ASSERT_EQUAL(86, C_to_F(30));
  
 }
 
-void test15()
+void test16()
 {
   TEST_ASSERT_EQUAL(86, C_to_F(30));
  
