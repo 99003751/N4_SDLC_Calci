@@ -55,6 +55,8 @@ int main()
   RUN_TEST(test6);
   RUN_TEST(test7);
   RUN_TEST(test8);
+  RUN_TEST(test9);
+  RUN_TEST(test10);
   
   
 
